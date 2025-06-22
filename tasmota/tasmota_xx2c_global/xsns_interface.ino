@@ -16,6 +16,7 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#include <stdint.h>
 
 #ifdef XFUNC_PTR_IN_ROM
 bool (* const xsns_func_ptr[])(uint32_t) PROGMEM = {  // Sensor Function Pointers for simple implementation of sensors
